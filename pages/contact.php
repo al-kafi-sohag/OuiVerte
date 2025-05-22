@@ -5,7 +5,7 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="wow fadeInUp" data-cursor="-opaque">Contact Network Utility Force</h1>
+                        <h1 class="wow fadeInUp" data-cursor="-opaque">Contact <?php echo APP_NAME; ?></h1>
                         <nav class="wow fadeInUp" data-wow-delay="0.2s">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL; ?>">home</a></li>
@@ -43,11 +43,11 @@
                             <!-- Contact Info Item Start -->
                             <div class="contact-info-item wow fadeInUp">
                                 <div class="icon-box">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-phone-accent.svg" alt="Network Utility Force Phone">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-phone-accent.svg" alt="<?php echo APP_NAME; ?> Phone">
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>call our experts</h3>
-                                    <p><a href="tel:+14046356667">+1-404-635-6667</a></p>
+                                    <p><a href="tel:+0123456789">+0123456789</a></p>
                                 </div>
                             </div>
                             <!-- Contact Info Item End -->
@@ -55,12 +55,12 @@
                             <!-- Contact Info Item Start -->
                             <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon-box">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-mail-accent.svg" alt="Network Utility Force Email">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-mail-accent.svg" alt="<?php echo APP_NAME; ?> Email">
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>email our team</h3>
-                                    <p><a href="mailto:info@netuf.net">info@netuf.net</a></p>
-                                    <p><a href="mailto:sales@netuf.net">sales@netuf.net</a></p>
+                                    <p><a href="mailto:info@oui-verte.net">info@oui-verte.net</a></p>
+                                    <p><a href="mailto:sales@oui-verte.net">sales@oui-verte.net</a></p>
                                 </div>
                             </div>
                             <!-- Contact Info Item End -->
@@ -68,11 +68,11 @@
                             <!-- Contact Info Item Start -->
                             <!-- <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="icon-box">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-location.svg" alt="Network Utility Force Location">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-location.svg" alt="<?php echo APP_NAME; ?> Location">
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>headquarters</h3>
-                                    <p>Network Utility Force, LLC<br>1234 Technology Drive, Suite 500<br>San Antonio, TX 78216<br>United States</p>
+                                    <p><?php echo APP_NAME; ?>, LLC<br>1234 Technology Drive, Suite 500<br>San Antonio, TX 78216<br>United States</p>
                                 </div>
                             </div> -->
                             <!-- Contact Info Item End -->

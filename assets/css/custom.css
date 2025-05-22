@@ -50,8 +50,8 @@
 	--primary-color				: #010535;
 	--secondary-color			: #F2F2F5;
 	--text-color				: #707070;
-	--accent-color				: #4D51AB;
-	--accent-secondary-color	: #55CEE3;
+	--accent-color				: #6EDBB1;
+	--accent-secondary-color	: #70ebeb;
 	--white-color				: #FFFFFF;
 	--divider-color				: #F5F5F5;
 	--dark-divider-color		: #FFFFFF33;
@@ -389,15 +389,15 @@ body{
 .section-title h3::before{
 	content: '';
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
     transform: translateY(-50%);
-    background: url('../images/preloader.png');
+    background: url('../images/logo.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
     width: 20px;
-    height: 10px;
+    height: 20px;
 }
 
 .section-title h1{
@@ -601,6 +601,23 @@ header.main-header .header-sticky.active{
 .navbar-brand{
 	padding: 0;
 	margin: 0;
+}
+
+.navbar-brand.logo{
+	height: 50px;
+	width: 50px;
+    top: 15%;
+    position: relative;
+}
+
+.navbar-brand.footer-logo img{
+	width: 5rem !important;
+	height: 5rem !important;
+}
+
+.navbar-brand.logo img{
+	width: 100%;
+	object-fit: cover;
 }
 
 .main-menu .nav-menu-wrapper{
@@ -5296,8 +5313,8 @@ header.main-header .header-sticky.active{
 	}
 
 	.section-title h3::before{
-		width: 18px;
-		height: 10px;
+		width: 20px;
+		height: 20px;
 	}
 
 	.section-title h1{

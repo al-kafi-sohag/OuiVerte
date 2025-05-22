@@ -5,17 +5,17 @@
                     <div class="col-lg-4">
                         <!-- Footer Newsletter Form Start -->
                         <div class="footer-links footer-newsletter-form">
-                            <h3>Network Utility Force</h3>
-                            <p>Network, Security, and Virtualization Experts</p>
-                            <a class="navbar-brand" href="<?php echo BASE_URL; ?>">
-                                <img src="<?php echo BASE_URL; ?>/assets/images/logo-netuf.png" alt="Network Utility Force">
+                            <h3><?php echo APP_NAME; ?></h3>
+                            <p><?php echo APP_SLOGAN; ?></p>
+                            <a class="navbar-brand footer-logo" href="<?php echo BASE_URL; ?>">
+                                <img class="" src="<?php echo BASE_URL; ?>/assets/images/logo.png" alt="<?php echo APP_NAME; ?>">
                             </a>
                         </div>
                         <!-- Footer Newsletter Form End -->
                     </div>
 
                     <div class="col-lg-2 col-md-3 col-6">
-                        <!-- Footer Links Start -->
+                        <!-- Footer Links Start --> 
                         <div class="footer-links footer-quick-links">
                             <h3>Quick Links</h3>
                             <ul>
@@ -62,10 +62,10 @@
                         <div class="footer-links">
                             <h3>Contact</h3>
                             <ul>
-                                <li><a href="tel:+14046356667">+1-404-635-6667</a></li>
-                                <li><a href="mailto:info@netuf.net">info@netuf.net</a></li>
-                                <li><a href="mailto:sales@netuf.net">sales@netuf.net</a></li>
-                                <li>Network Utility Force, LLC.</li>
+                                <li><a href="tel:+0123456789">+0123456789</a></li>
+                                <li><a href="mailto:info@oui-verte.net">info@oui-verte.net</a></li>
+                                <li><a href="mailto:sales@oui-verte.net">sales@oui-verte.net</a></li>
+                                <li><?php echo APP_NAME; ?>, LLC.</li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -80,7 +80,7 @@
                         <div class="col-md-12">
                             <!-- Footer Copyright Text Start -->
                             <div class="footer-copyright-text">
-                                <p>Copyright &copy; <?php echo date('Y'); ?> Network Utility Force, LLC. All Rights Reserved.</p>
+                                <p>Copyright &copy; <?php echo date('Y'); ?> <?php echo APP_NAME; ?>, LLC. All Rights Reserved.</p>
                             </div>
                             <!-- Footer Copyright Text End -->
                         </div>

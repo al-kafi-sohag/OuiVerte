@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
-    'Alkafi\\Netuf\\' => array($baseDir . '/src'),
+    'Alkafi\\OuiVerte\\' => array($baseDir . '/src'),
 );

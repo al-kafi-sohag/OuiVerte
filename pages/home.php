@@ -7,7 +7,7 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">welcome to Network Utility Force</h3>
+                            <h3 class="wow fadeInUp">welcome to <?php echo APP_NAME; ?></h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Expert Network Architecture & Engineering Solutions</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Your trusted partner for sophisticated network, security, and virtualization solutions designed by industry experts with decades of experience.</p>
                         </div>

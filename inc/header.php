@@ -9,9 +9,9 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <!-- Page Title -->
-        <title>Netuf - Network Utility Force</title>
+        <title><?php echo APP_NAME; ?> - <?php echo APP_SLOGAN; ?></title>
         <!-- Favicon Icon -->
-        <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>/assets/images/logo-netuf.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>/assets/images/logo.png">
         <!-- Google Fonts Css-->
         <link rel="preconnect" href="https://fonts.googleapis.com/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>

@@ -13,7 +13,7 @@ class ComposerStaticInita1dfee83c398c3f2b6eae53463f3174f
         ),
         'A' => 
         array (
-            'Alkafi\\Netuf\\' => 13,
+            'Alkafi\\OuiVerte\\' => 13,
         ),
     );
 
@@ -22,7 +22,7 @@ class ComposerStaticInita1dfee83c398c3f2b6eae53463f3174f
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
-        'Alkafi\\Netuf\\' => 
+        'Alkafi\\OuiVerte\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

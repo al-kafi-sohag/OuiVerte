@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'alkafi/netuf',
+        'name' => 'alkafi/oui-verte',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => '9033ddeeb1532f23c75b3cedba17bebb8b00e389',
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'alkafi/netuf' => array(
+        'alkafi/oui-verte' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'reference' => '9033ddeeb1532f23c75b3cedba17bebb8b00e389',

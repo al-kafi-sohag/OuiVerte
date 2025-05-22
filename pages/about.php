@@ -5,7 +5,7 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="wow fadeInUp" data-cursor="-opaque">About Network Utility Force</h1>
+                        <h1 class="wow fadeInUp" data-cursor="-opaque">About <?php echo APP_NAME; ?></h1>
                         <nav class="wow fadeInUp" data-wow-delay="0.2s">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL; ?>">home</a></li>
@@ -54,7 +54,7 @@
                         <!-- Get Free Security Circle Start -->
                         <div class="get-free-security-circle">
                             <a href="<?php echo BASE_URL; ?>/contact">
-                                <img src="<?php echo BASE_URL; ?>/assets/images/contact-circle-image.svg" alt="Contact Network Utility Force">
+                                <img src="<?php echo BASE_URL; ?>/assets/images/contact-circle-image.svg" alt="Contact <?php echo APP_NAME; ?>">
                             </a>
                         </div>
                         <!-- Get Free Security Circle End -->
@@ -69,7 +69,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Your trusted partner in <span>network and security solutions</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Network Utility Force provides expert network architecture, security, and virtualization services. As vendor-neutral consultants, we deliver unbiased professional advice tailored to your organization's unique requirements.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s"><?php echo APP_NAME; ?> provides expert network architecture, security, and virtualization services. As vendor-neutral consultants, we deliver unbiased professional advice tailored to your organization's unique requirements.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -196,7 +196,7 @@
                     <!-- Our Approach Image Start -->
                     <div class="our-approach-image">
                         <figure class="image-anime reveal">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/server-5.webp" alt="Network Utility Force Approach">
+                            <img src="<?php echo BASE_URL; ?>/assets/images/server-5.webp" alt="<?php echo APP_NAME; ?> Approach">
                         </figure>
                     </div>
                     <!-- Our Approach Image End -->
@@ -295,7 +295,7 @@
                     <!-- Why Choose Image Start -->
                     <div class="why-choose-image">
                         <figure class="image-anime reveal">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/why-choose-image.jpg" alt="Network Utility Force Advantages">
+                            <img src="<?php echo BASE_URL; ?>/assets/images/why-choose-image.jpg" alt="<?php echo APP_NAME; ?> Advantages">
                         </figure>
                     </div>
                     <!-- Why Choose Image End -->
@@ -499,7 +499,7 @@
 
                         <div class="contact-us-circle">
                             <a href="<?php echo BASE_URL; ?>/contact">
-                                <img src="<?php echo BASE_URL; ?>/assets/images/contact-circle-image.svg" alt="Contact Network Utility Force">
+                                <img src="<?php echo BASE_URL; ?>/assets/images/contact-circle-image.svg" alt="Contact <?php echo APP_NAME; ?>">
                             </a>
                         </div>
                     </div>
@@ -513,7 +513,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">our advantages</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Benefits of vendor-neutral network expertise</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Partner with Network Utility Force to gain access to specialized knowledge in network architecture, security, and virtualization. Our vendor-neutral approach ensures you receive solutions that genuinely meet your organization's specific needs and objectives.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Partner with <?php echo APP_NAME; ?> to gain access to specialized knowledge in network architecture, security, and virtualization. Our vendor-neutral approach ensures you receive solutions that genuinely meet your organization's specific needs and objectives.</p>
                         </div>
                         <!-- Section Title End -->
 

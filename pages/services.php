@@ -190,7 +190,7 @@
                     <!-- Why Choose Image Start -->
                     <div class="why-choose-image">
                         <figure class="image-anime reveal">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/why-choose-image.jpg" alt="Network Utility Force Professional service">
+                            <img src="<?php echo BASE_URL; ?>/assets/images/why-choose-image.jpg" alt="<?php echo APP_NAME; ?> Professional service">
                         </figure>
                     </div>
                     <!-- Why Choose Image End -->
