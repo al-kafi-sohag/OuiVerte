@@ -8,8 +8,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">welcome to <?php echo APP_NAME; ?></h3>
-                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Expert Network Architecture & Engineering Solutions</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Your trusted partner for sophisticated network, security, and virtualization solutions designed by industry experts with decades of experience.</p>
+                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Sovereign Cloud <span>Powered by Renewable Energy</span></h1>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">European data centers that are sustainable, resilient, and sovereign.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -37,8 +37,9 @@
                             <!-- Hero List Start -->
                             <div class="hero-list wow fadeInUp" data-wow-delay="0.8s">
                                 <ul>
-                                    <li>Network Architecture & Design</li>
-                                    <li>Security & Optimization Solutions</li>
+                                    <li>Sovereign Cloud Solutions</li>
+                                    <li>100% Renewable Energy</li>
+                                    <li>Urban Data Centers</li>
                                 </ul>
                             </div>
                             <!-- Hero List End -->
@@ -97,25 +98,25 @@
                         <!-- About Image Box Start -->
                         <div class="about-image-box about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="<?php echo BASE_URL; ?>/assets/images/server-1.jpg" alt="">
+                                <img src="<?php echo BASE_URL; ?>/assets/images/server-1.png" alt="">
                             </figure>
-                        </div>
+            </div>
                         <!-- About Image Box End -->
 
                         <!-- About Image Box Start -->
                         <div class="about-image-box">
                             <div class="about-img-2">
                                 <figure class="image-anime reveal">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/about-image-2.jpg" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-2.png" alt="">
                                 </figure>
-                            </div>
-
+            </div>
+            
                             <div class="about-img-3">
                                 <figure class="image-anime reveal">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/about-image-3.jpg" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-3.png" alt="">
                                 </figure>
-                            </div>
-                        </div>
+                </div>
+            </div>
                         <!-- About Image Box Start -->
 
                         <!-- Get Free Security Circle Start -->
@@ -127,16 +128,16 @@
                         <!-- Get Free Security Circle End -->
                     </div>
                     <!-- About Us Image End -->
-                </div>
-
+            </div>
+            
                 <div class="col-lg-6">
                     <!-- About Us Content Start -->
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Your trusted partner in <span>network engineering excellence</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We deliver unbiased, cutting-edge network architecture and security solutions to optimize your infrastructure, ensuring reliability and high performance.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-delay="0.2s" data-cursor="-opaque">Pioneering <span>Sustainable Cloud Infrastructure</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">OuiVerte is transforming data centers with our innovative approach to sovereign cloud services, powered by 100% renewable energy and designed for maximum resilience and efficiency.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -145,16 +146,16 @@
                             <!-- About Us Body Image Start -->
                             <div class="about-us-body-img">
                                 <figure class="image-anime">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/about-body-img.png" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-4.png" alt="">
                                 </figure>
-                            </div>
+                    </div>
                             <!-- About Us Body Image End -->
                             
                             <!-- About Us Body Content Start -->
                             <div class="about-us-body-content">
-                                <h3>24/7 expert technical assistance</h3>
-                                <p>Real-time support for all network concerns, including optimization, security implementation, and strategic technical guidance.</p>
-                            </div>
+                                <h3>Sustainable by Design</h3>
+                                <p style="line-height: 1rem; text-align: justify; font-size: 12px;">Our Fractional Data Center fabric captures renewable heat for district heating systems, creating a circular energy economy while ensuring data sovereignty and low latency.</p>
+                </div>
                             <!-- About Us Body Content End -->
                         </div>
                         <!-- About Us Body End -->
@@ -164,11 +165,11 @@
                             <!-- About Footer List Start -->
                             <div class="about-footer-list">
                                 <ul>
-                                    <li>Get Free consultations</li>
-                                    <li>Network Architecture & Design</li>
-                                    <li>Security & Optimization Solutions</li>
-                                </ul>
-                            </div>
+                                    <li>Sovereign Cloud Solutions</li>
+                                    <li>Renewable Energy Integration</li>
+                                    <li>AI-Optimized Operations</li>
+                    </ul>
+                </div>
                             <!-- About Footer List End -->
                             
                             <!-- About Footer Content Start -->
@@ -177,14 +178,14 @@
                                 <div class="about-contact-btn">
                                     <div class="icon-box">
                                         <img src="<?php echo BASE_URL; ?>/assets/images/icon-phone.svg" alt="">
-                                    </div>
-                                    
+            </div>
+            
                                     <div class="about-footer-btn-content">
-                                        <h3><a href="tel:+14046356667">+1-404-635-6667.</a></h3>
-                                    </div>
-                                </div>
+                                        <h3><a href="tel:+0123456789">+0123456789.</a></h3>
+        </div>
+    </div>
                                 <!-- About Content Button End -->
-                                
+    
                                 <!-- About Footer Button Start -->
                                 <div class="about-footer-btn">
                                     <a href="<?php echo BASE_URL; ?>/about" class="btn-default">more about</a>
@@ -218,14 +219,13 @@
 
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp">
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                         <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-1.svg" alt="">
+                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-3.svg" alt="">
                         </div>
                         <div class="service-title-box">
                             <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">Network Architecture & Design</a></h3>
+                                <h3><a href="<?php echo BASE_URL; ?>/services">Sovereign Cloud</a></h3>
                             </div>
                             <div class="service-btn">
                                 <a href="<?php echo BASE_URL; ?>/services">
@@ -234,21 +234,19 @@
                             </div>
                         </div>
                         <div class="service-content">
-                            <p>Custom network infrastructure design and architecture planning to optimize performance and security.</p>
+                            <p>Fully compliant sovereign cloud solutions ensuring your data remains within European borders, meeting all regulatory requirements.</p>
                         </div>
                     </div>
-                    <!-- Service Item End -->
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item active wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item wow fadeInUp active" data-wow-delay="0.4s">
                         <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-2.svg" alt="">
+                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-3.svg" alt="">
                         </div>
                         <div class="service-title-box">
                             <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">IPv6 Implementation</a></h3>
+                                <h3><a href="<?php echo BASE_URL; ?>/services">Sustainable Infrastructure</a></h3>
                             </div>
                             <div class="service-btn">
                                 <a href="<?php echo BASE_URL; ?>/services">
@@ -257,14 +255,12 @@
                             </div>
                         </div>
                         <div class="service-content">
-                            <p>Expert IPv6 migration strategies and implementation for future-proof network infrastructure.</p>
+                            <p>Eco-friendly data center solutions powered by 100% renewable energy, with heat recapture for district heating systems.</p>
                         </div>
                     </div>
-                    <!-- Service Item End -->
                 </div>
                 
                 <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
                     <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                         <div class="icon-box">
                             <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-3.svg" alt="">
