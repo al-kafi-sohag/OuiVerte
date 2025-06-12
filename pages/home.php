@@ -14,11 +14,11 @@
                         <!-- Section Title End -->
 
                         <!-- Hero Content Body Start -->
-                        <div class="hero-content-body wow fadeInUp" data-wow-delay="0.6s">
+                        <!-- <div class="hero-content-body wow fadeInUp" data-wow-delay="0.6s"> -->
                             <!-- Hero Button Start -->
-                            <div class="hero-btn">
+                            <!-- <div class="hero-btn">
                                 <a href="<?php echo BASE_URL; ?>/contact" class="btn-default btn-highlighted">learn more</a>
-                            </div>
+                            </div> -->
                             <!-- Hero Button End -->
 
                             <!-- Video Play Button Start -->
@@ -29,7 +29,7 @@
                                 <h3>Play video</h3>
                             </div> -->
                             <!-- Video Play Button End -->
-                        </div>
+                        <!-- </div> -->
                         <!-- Hero Content Body End -->      
                         
                         <!-- Hero Content Footer Start -->
@@ -120,11 +120,11 @@
                         <!-- About Image Box Start -->
 
                         <!-- Get Free Security Circle Start -->
-                        <div class="get-free-security-circle">
+                        <!-- <div class="get-free-security-circle">
                             <a href="<?php echo BASE_URL; ?>/contact">
                                 <img src="<?php echo BASE_URL; ?>/assets/images/contact-circle-image.svg" alt="">
                             </a>
-                        </div>
+                        </div> -->
                         <!-- Get Free Security Circle End -->
                     </div>
                     <!-- About Us Image End -->
@@ -187,9 +187,9 @@
                                 <!-- About Content Button End -->
     
                                 <!-- About Footer Button Start -->
-                                <div class="about-footer-btn">
+                                <!-- <div class="about-footer-btn">
                                     <a href="<?php echo BASE_URL; ?>/about" class="btn-default">more about</a>
-                                </div>
+                                </div> -->
                                 <!-- About Footer Button End -->
                             </div>
                             <!-- About Footer Content End -->
@@ -204,7 +204,7 @@
     <!-- About Us Section End -->
     
     <!-- Our Services Section Start -->
-    <div class="our-services">
+    <div class="our-services" style="display:none !important">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
