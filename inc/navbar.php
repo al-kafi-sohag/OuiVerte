@@ -45,10 +45,10 @@
 				<div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="<?php echo BASE_URL; ?>">Home</a>
                             </li>                                
-                            <!-- <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL; ?>/about">About Us</a>
+                            <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL; ?>/about">About Us</a>
                             <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL; ?>/services">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL; ?>/team">Team</a></li>
                             <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL; ?>/contact">Contact Us</a></li> -->
