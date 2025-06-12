@@ -61,7 +61,7 @@
                     <!-- Header Btn End -->
 				</div>
 				<!-- Main Menu End -->
-				<div class="navbar-toggle"></div>
+				<!-- <div class="navbar-toggle"></div> -->
 			</div>
 		</nav>
 		<div class="responsive-menu"></div>
