@@ -451,7 +451,7 @@
                                 </div>
                                 <div class="ferature-list-content">
                                     <h3>Ultra-Sustainable & Locally Powered</h3>
-                                    <p>Our neighborhood data centers run on 100% renewable energy and recycle all waste heat into local District Heating systems—zero water usage, zero carbon compromise.</p>
+                                    <p>Our neighborhood data centers run on 100% renewable energy and recycle all waste heat into local District Heating systems — zero water usage, zero carbon, no compromises.</p>
                                 </div>
                             </div>
                             <!-- Feature List Item End -->
