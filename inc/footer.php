@@ -1,15 +1,12 @@
         <!-- Main Footer Section Start -->
         <footer class="main-footer">
-            <div class="container">
+            <div class="container" style="display:none;">
                 <div class="row">
                     <div class="col-lg-3">
                         <!-- Footer Newsletter Form Start -->
                         <div class="footer-links footer-newsletter-form">
                             <h3><?php echo APP_NAME; ?></h3>
                             <p><?php echo APP_SLOGAN; ?></p>
-                            <a class="navbar-brand footer-logo" href="<?php echo BASE_URL; ?>">
-                                <img class="" src="<?php echo BASE_URL; ?>/assets/images/logo.png" alt="<?php echo APP_NAME; ?>">
-                            </a>
                         </div>
                         <!-- Footer Newsletter Form End -->
                     </div>
@@ -21,9 +18,6 @@
                         <div class="footer-links">
                             <h3>Contact</h3>
                             <ul>
-                                <li><a href="tel:+0123456789">+0123456789</a></li>
-                                <li><a href="mailto:info@oui-verte.net">info@oui-verte.net</a></li>
-                                <li><a href="mailto:sales@oui-verte.net">sales@oui-verte.net</a></li>
                                 <li><?php echo APP_NAME; ?>, LLC.</li>
                             </ul>
                         </div>
@@ -36,7 +30,12 @@
             <div class="footer-copyright">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-4"> 
+                            <a class="navbar-brand footer-logo" href="<?php echo BASE_URL; ?>">
+                                <img class="" src="<?php echo BASE_URL; ?>/assets/images/logo.png" alt="<?php echo APP_NAME; ?>">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
                             <!-- Footer Copyright Text Start -->
                             <div class="footer-copyright-text">
                                 <p>Copyright &copy; <?php echo date('Y'); ?> <?php echo APP_NAME; ?>, LLC. All Rights Reserved.</p>
