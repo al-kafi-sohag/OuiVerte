@@ -55,9 +55,9 @@
                         </ul>
                     </div>
                     <!-- Header Btn Start -->
-                    <div class="header-btn">
+                    <!-- <div class="header-btn">
                         <a href="<?php echo BASE_URL; ?>/contact" class="btn-default">Request Consultation</a>
-                    </div>
+                    </div> -->
                     <!-- Header Btn End -->
 				</div>
 				<!-- Main Menu End -->
