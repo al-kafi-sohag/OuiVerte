@@ -30,12 +30,12 @@
             <div class="footer-copyright">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4"> 
+                        <!-- <div class="col-md-4"> 
                             <a class="navbar-brand footer-logo" href="<?php echo BASE_URL; ?>">
                                 <img class="" src="<?php echo BASE_URL; ?>/assets/images/logo.png" alt="<?php echo APP_NAME; ?>">
                             </a>
-                        </div>
-                        <div class="col-md-8">
+                        </div> -->
+                        <div class="col-md-8 m-auto">
                             <!-- Footer Copyright Text Start -->
                             <div class="footer-copyright-text">
                                 <p>Copyright &copy; <?php echo date('Y'); ?> <?php echo APP_NAME; ?>, LLC. All Rights Reserved.</p>
