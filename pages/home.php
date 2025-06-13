@@ -175,7 +175,7 @@
                             <!-- About Footer List End -->
                             
                             <!-- About Footer Content Start -->
-                            <div class="about-footer-content">
+                            <div class="about-footer-content" style="display:none">
                                 <!-- About Content Button Start -->
                                 <div class="about-contact-btn">
                                     <div class="icon-box">
