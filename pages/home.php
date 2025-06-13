@@ -40,6 +40,7 @@
                                     <li>Sovereign Cloud Solutions</li>
                                     <li>100% Renewable Energy</li>
                                     <li>Urban Data Centers</li>
+                                    <li>100% Water Free</li>
                                 </ul>
                             </div>
                             <!-- Hero List End -->
@@ -168,6 +169,7 @@
                                     <li>Sovereign Cloud Solutions</li>
                                     <li>Renewable Energy Integration</li>
                                     <li>AI-Optimized Operations</li>
+                                    <li>100% Water Free</li>
                     </ul>
                 </div>
                             <!-- About Footer List End -->
@@ -384,8 +386,8 @@
                             <div class="company-experience-box">
                                 <!-- Company Experience Content Start -->
                                 <div class="company-experience-content">
-                                    <h2><span class="counter">30</span>+</h2>
-                                    <p>Years of experience in network engineering</p>
+                                    <h2><span class="counter">100</span>%</h2>
+                                    <p>Renewable energy</p>
                                 </div>
                                 <!-- Company Experience Content End -->
 
@@ -448,8 +450,8 @@
                                     <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-1.svg" alt="">
                                 </div>
                                 <div class="ferature-list-content">
-                                    <h3>real-time network monitoring</h3>
-                                    <p>Advanced monitoring solutions to ensure optimal performance, identify bottlenecks, and prevent network failures before they impact your operations.</p>
+                                    <h3>Ultra-Sustainable & Locally Powered</h3>
+                                    <p>Our neighborhood data centers run on 100% renewable energy and recycle all waste heat into local District Heating systems—zero water usage, zero carbon compromise.</p>
                                 </div>
                             </div>
                             <!-- Feature List Item End -->
@@ -460,8 +462,8 @@
                                     <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-2.svg" alt="">
                                 </div>
                                 <div class="ferature-list-content">
-                                    <h3>datacenter design & optimization</h3>
-                                    <p>Strategic datacenter architecture planning and implementation with scalability and efficiency as core priorities for future growth.</p>
+                                    <h3>European-Owned, Sovereign Cloud</h3>
+                                    <p>Host your data securely with a trusted, EU-based provider offering full data sovereignty, GDPR compliance, and no transatlantic exposure.</p>
                                 </div>
                             </div>
                             <!-- Feature List Item End -->
@@ -472,8 +474,8 @@
                                     <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-3.svg" alt="">
                                 </div>
                                 <div class="ferature-list-content">
-                                    <h3>24/7 technical support & expertise</h3>
-                                    <p>Round-the-clock access to our team of network engineering experts to address any concerns and provide strategic guidance when you need it most.</p>
+                                    <h3>Tailored Hybrid Cloud Solutions</h3>
+                                    <p>From DIY IaaS to bespoke CaaS/PaaS platforms, we deliver transparent pricing, enterprise-grade SLAs, and expert consulting to meet your exact needs.</p>
                                 </div>
                             </div>
                             <!-- Feature List Item End -->

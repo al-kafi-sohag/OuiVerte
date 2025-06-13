@@ -2,7 +2,7 @@
         <footer class="main-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <!-- Footer Newsletter Form Start -->
                         <div class="footer-links footer-newsletter-form">
                             <h3><?php echo APP_NAME; ?></h3>
@@ -13,51 +13,10 @@
                         </div>
                         <!-- Footer Newsletter Form End -->
                     </div>
-
-                    <div class="col-lg-2 col-md-3 col-6">
-                        <!-- Footer Links Start --> 
-                        <div class="footer-links footer-quick-links">
-                            <h3>Quick Links</h3>
-                            <ul>
-                                <li><a href="<?php echo BASE_URL; ?>/">Home</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/about">About Us</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/services">Services</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/team">Our Team</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/contact">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Links End -->
+                    <div class="col-lg-6">
                     </div>
                     
-                    <div class="col-lg-2 col-md-3 col-6">
-                        <!-- Footer Links Start -->
-                        <div class="footer-links">
-                            <h3>Services</h3>
-                            <ul>
-                                <li><a href="<?php echo BASE_URL; ?>/services">Network Architecture</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/services">Security Assessment</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/services">Datacenter Design</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/services">IPv6 Implementation</a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Links End -->
-                    </div>
-                    
-                    <div class="col-lg-2 col-md-3 col-6">
-                        <!-- Footer Links Start -->
-                        <div class="footer-links">
-                            <h3>Expertise</h3>
-                            <ul>
-                                <li><a href="<?php echo BASE_URL; ?>/services">Network Automation</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/services">Cloud Integration</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/services">Technical Writing</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>/services">RFP Assistance</a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Links End -->
-                    </div>
-                    
-                    <div class="col-lg-2 col-md-3 col-6">
+                    <div class="col-lg-3">
                         <!-- Footer Links Start -->
                         <div class="footer-links">
                             <h3>Contact</h3>
