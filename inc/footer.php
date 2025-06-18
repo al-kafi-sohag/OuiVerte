@@ -38,7 +38,7 @@
                         <div class="col-md-8 m-auto">
                             <!-- Footer Copyright Text Start -->
                             <div class="footer-copyright-text">
-                                <p>Copyright &copy; <?php echo date('Y'); ?> <?php echo APP_NAME; ?>, LLC. All Rights Reserved.</p>
+                                <p>Copyright &copy; <?php echo date('Y'); ?> <?php echo APP_NAME; ?>, SaRL. All Rights Reserved.</p>
                             </div>
                             <!-- Footer Copyright Text End -->
                         </div>
