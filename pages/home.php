@@ -99,7 +99,7 @@
                         <!-- About Image Box Start -->
                         <div class="about-image-box about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="<?php echo BASE_URL; ?>/assets/images/server-1.png" alt="OuiVerte Sustainable Data Center Infrastructure">
+                                <img src="<?php echo BASE_URL; ?>/assets/images/server-1.png" alt="<?php echo APP_NAME ?> Sustainable Data Center Infrastructure">
                             </figure>
                         </div>
                         <!-- About Image Box End -->
@@ -138,7 +138,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-delay="0.2s" data-cursor="-opaque">Pioneering <span>Sustainable Cloud Infrastructure</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s"> <i><b>OuiVerte</b></i> is transforming data centers with our innovative approach to sovereign cloud services, powered by 100% renewable energy and designed for maximum resilience and efficiency.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s"> <i><b><?php echo APP_NAME ?></b></i> is transforming data centers with our innovative approach to sovereign cloud services, powered by 100% renewable energy and designed for maximum resilience and efficiency.</p>
                         </div>
                         <!-- Section Title End -->
 
