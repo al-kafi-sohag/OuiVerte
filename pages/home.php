@@ -9,7 +9,7 @@
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">welcome to <?php echo APP_NAME; ?></h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Sovereign Cloud <span>Powered by Renewable Energy</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">European data centers that are sustainable, resilient, and sovereign.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Sovereign European data centers: Sustainable. Efficient. Resilient.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -138,7 +138,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-delay="0.2s" data-cursor="-opaque">Pioneering <span>Sustainable Cloud Infrastructure</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">OuiVerte is transforming data centers with our innovative approach to sovereign cloud services, powered by 100% renewable energy and designed for maximum resilience and efficiency.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s"> <i><b>OuiVerte</b></i> is transforming data centers with our innovative approach to sovereign cloud services, powered by 100% renewable energy and designed for maximum resilience and efficiency.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -451,7 +451,7 @@
                                 </div>
                                 <div class="ferature-list-content">
                                     <h3>Ultra-Sustainable & Locally Powered</h3>
-                                    <p>Our neighborhood data centers run on 100% renewable energy and recycle all waste heat into local District Heating systems — zero water usage, zero carbon, no compromises.</p>
+                                    <p>Our neighborhood data centers run on 100% renewable energy and recycle our waste heat into local District Heating systems — zero water usage, zero carbon, no compromises.</p>
                                 </div>
                             </div>
                             <!-- Feature List Item End -->
