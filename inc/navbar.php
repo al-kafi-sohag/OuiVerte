@@ -38,7 +38,7 @@
 			<div class="container">
 				<!-- Logo Start -->
 				<a class="navbar-brand logo" href="<?php echo BASE_URL; ?>">
-					<img class="img-fluid" src="<?php echo BASE_URL; ?>/assets/images/logo.png" alt="<?php echo APP_NAME; ?>">
+					<img class="img-fluid" src="<?php echo BASE_URL; ?>/assets/images/logo.png" alt="OuiVerte - Sustainable European Cloud Infrastructure">
 				</a>
 				<!-- Logo End -->
 				<!-- Main Menu Start -->

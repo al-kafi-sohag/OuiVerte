@@ -99,25 +99,25 @@
                         <!-- About Image Box Start -->
                         <div class="about-image-box about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="<?php echo BASE_URL; ?>/assets/images/server-1.png" alt="">
+                                <img src="<?php echo BASE_URL; ?>/assets/images/server-1.png" alt="OuiVerte Sustainable Data Center Infrastructure">
                             </figure>
-            </div>
+                        </div>
                         <!-- About Image Box End -->
 
                         <!-- About Image Box Start -->
                         <div class="about-image-box">
                             <div class="about-img-2">
                                 <figure class="image-anime reveal">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-2.png" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-2.png" alt="Green Energy Powered Cloud Infrastructure">
                                 </figure>
-            </div>
+                            </div>
             
                             <div class="about-img-3">
                                 <figure class="image-anime reveal">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-3.png" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-3.png" alt="Sustainable Cloud Computing Solutions">
                                 </figure>
-                </div>
-            </div>
+                            </div>
+                        </div>
                         <!-- About Image Box Start -->
 
                         <!-- Get Free Security Circle Start -->
@@ -129,7 +129,7 @@
                         <!-- Get Free Security Circle End -->
                     </div>
                     <!-- About Us Image End -->
-            </div>
+                </div>
             
                 <div class="col-lg-6">
                     <!-- About Us Content Start -->
@@ -147,16 +147,16 @@
                             <!-- About Us Body Image Start -->
                             <div class="about-us-body-img">
                                 <figure class="image-anime">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-4.png" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/server-4.png" alt="Eco-Friendly Data Center Operations">
                                 </figure>
-                    </div>
+                            </div>
                             <!-- About Us Body Image End -->
                             
                             <!-- About Us Body Content Start -->
                             <div class="about-us-body-content">
                                 <h3>Sustainable by Design</h3>
                                 <p style="line-height: 1rem; text-align: justify; font-size: 12px;">Our Fractional Data Center fabric captures renewable heat for district heating systems, creating a circular energy economy while ensuring data sovereignty and low latency.</p>
-                </div>
+                            </div>
                             <!-- About Us Body Content End -->
                         </div>
                         <!-- About Us Body End -->
@@ -170,8 +170,8 @@
                                     <li>Renewable Energy Integration</li>
                                     <li>AI-Optimized Operations</li>
                                     <li>100% Water Free</li>
-                    </ul>
-                </div>
+                                </ul>
+                            </div>
                             <!-- About Footer List End -->
                             
                             <!-- About Footer Content Start -->
@@ -180,12 +180,8 @@
                                 <div class="about-contact-btn">
                                     <div class="icon-box">
                                         <img src="<?php echo BASE_URL; ?>/assets/images/icon-phone.svg" alt="">
-            </div>
-            
-                                    <div class="about-footer-btn-content">
-                                        <h3><a href="tel:+0123456789">+0123456789.</a></h3>
-        </div>
-    </div>
+                                    </div>
+                                </div>
                                 <!-- About Content Button End -->
     
                                 <!-- About Footer Button Start -->
@@ -447,7 +443,7 @@
                             <!-- Feature List Item Start -->
                             <div class="ferature-list-item wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="icon-box">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-1.svg" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-1.svg" alt="100% Renewable Energy Icon">
                                 </div>
                                 <div class="ferature-list-content">
                                     <h3>Ultra-Sustainable & Locally Powered</h3>
@@ -459,7 +455,7 @@
                             <!-- Feature List Item Start -->
                             <div class="ferature-list-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="icon-box">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-2.svg" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-2.svg" alt="European Sovereign Cloud Icon">
                                 </div>
                                 <div class="ferature-list-content">
                                     <h3>European-Owned, Sovereign Cloud</h3>
