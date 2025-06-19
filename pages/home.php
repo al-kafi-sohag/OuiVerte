@@ -174,23 +174,6 @@
                             </div>
                             <!-- About Footer List End -->
                             
-                            <!-- About Footer Content Start -->
-                            <div class="about-footer-content" style="display:none">
-                                <!-- About Content Button Start -->
-                                <div class="about-contact-btn">
-                                    <div class="icon-box">
-                                        <img src="<?php echo BASE_URL; ?>/assets/images/icon-phone.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- About Content Button End -->
-    
-                                <!-- About Footer Button Start -->
-                                <!-- <div class="about-footer-btn">
-                                    <a href="<?php echo BASE_URL; ?>/about" class="btn-default">more about</a>
-                                </div> -->
-                                <!-- About Footer Button End -->
-                            </div>
-                            <!-- About Footer Content End -->
                         </div>
                         <!-- About Us Footer End -->
                     </div>
@@ -201,158 +184,6 @@
     </div>
     <!-- About Us Section End -->
     
-    <!-- Our Services Section Start -->
-    <div class="our-services" style="display:none !important">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">our services</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Comprehensive network solutions <span>for enterprise infrastructure</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-3.svg" alt="">
-                        </div>
-                        <div class="service-title-box">
-                            <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">Sovereign Cloud</a></h3>
-                            </div>
-                            <div class="service-btn">
-                                <a href="<?php echo BASE_URL; ?>/services">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <p>Fully compliant sovereign cloud solutions ensuring your data remains within European borders, meeting all regulatory requirements.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item wow fadeInUp active" data-wow-delay="0.4s">
-                        <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-3.svg" alt="">
-                        </div>
-                        <div class="service-title-box">
-                            <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">Sustainable Infrastructure</a></h3>
-                            </div>
-                            <div class="service-btn">
-                                <a href="<?php echo BASE_URL; ?>/services">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <p>Eco-friendly data center solutions powered by 100% renewable energy, with heat recapture for district heating systems.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-3.svg" alt="">
-                        </div>
-                        <div class="service-title-box">
-                            <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">Security Optimization</a></h3>
-                            </div>
-                            <div class="service-btn">
-                                <a href="<?php echo BASE_URL; ?>/services">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <p>Comprehensive security audits and implementation for networks of all scales and complexities.</p>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-4.svg" alt="">
-                        </div>
-                        <div class="service-title-box">
-                            <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">Cloud & Network Integration</a></h3>
-                            </div>
-                            <div class="service-btn">
-                                <a href="<?php echo BASE_URL; ?>/services">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <p>Seamless integration of cloud services with existing network infrastructure for enhanced performance.</p>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-5.svg" alt="">
-                        </div>
-                        <div class="service-title-box">
-                            <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">MPLS & Traffic Engineering</a></h3>
-                            </div>
-                            <div class="service-btn">
-                                <a href="<?php echo BASE_URL; ?>/services">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <p>Advanced MPLS implementation and traffic optimization for maximum network efficiency.</p>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1s">
-                        <div class="icon-box">
-                            <img src="<?php echo BASE_URL; ?>/assets/images/icon-service-6.svg" alt="">
-                        </div>
-                        <div class="service-title-box">
-                            <div class="service-title">
-                                <h3><a href="<?php echo BASE_URL; ?>/services">Professional service</a></h3>
-                            </div>
-                            <div class="service-btn">
-                                <a href="<?php echo BASE_URL; ?>/services">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="service-content">
-                            <p>Expert witness services, M&A evaluations, and unbiased technical consultations for your unique needs.</p>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Services Section End -->
-
     <!-- Our Feature Section Start -->
     <div class="our-feature">
         <div class="container">
@@ -363,7 +194,7 @@
                         <!-- Feature Image Start -->
                         <div class="feature-image">
                             <figure class="image-anime reveal">
-                                <img src="<?php echo BASE_URL; ?>/assets/images/server-3.jpg" alt="">
+                                <img src="<?php echo BASE_URL; ?>/assets/images/server-3.webp" alt="">
                             </figure>
                         </div>
                         <!-- Feature Image End -->
@@ -373,7 +204,7 @@
                             <!-- Feature Image Start -->
                             <div class="feature-image">
                                 <figure class="image-anime reveal">
-                                    <img src="<?php echo BASE_URL; ?>/assets/images/feature-image-2.jpg" alt="">
+                                    <img src="<?php echo BASE_URL; ?>/assets/images/feature-image-2.webp" alt="">
                                 </figure>
                             </div>
                             <!-- Feature Image End -->
@@ -387,39 +218,7 @@
                                 </div>
                                 <!-- Company Experience Content End -->
 
-                                <!-- Company Client Image Start -->
-                                <div class="our-client-images company-client-images">
-                                    <!-- Client Image Start -->
-                                    <!-- <div class="client-image">
-                                        <figure class="image-anime">
-                                            <img src="<?php echo BASE_URL; ?>/assets/images/client-image-1.jpg" alt="">
-                                        </figure>
-                                    </div> -->
-                                    <!-- Client Image End -->
-
-                                    <!-- Client Image Start -->
-                                    <!-- <div class="client-image">
-                                        <figure class="image-anime">
-                                            <img src="<?php echo BASE_URL; ?>/assets/images/client-image-2.jpg" alt="">
-                                        </figure>
-                                    </div> -->
-                                    <!-- Client Image End -->
-
-                                    <!-- Client Image Start -->
-                                    <!-- <div class="client-image">
-                                        <figure class="image-anime">
-                                            <img src="<?php echo BASE_URL; ?>/assets/images/client-image-3.jpg" alt="">
-                                        </figure>
-                                    </div> -->
-                                    <!-- Client Image End -->
-
-                                    <!-- Add More Client Image Start -->
-                                    <!-- <div class="client-image client-counter">
-                                        <h3><span class="counter">25</span>k</h3>
-                                    </div> -->
-                                    <!-- Add More Client Image End -->
-                                </div>
-                                <!-- Company Client Image End -->
+                               
                             </div>
                             <!-- Company Experience Box End -->
                         </div>
