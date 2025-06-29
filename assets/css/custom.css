@@ -430,13 +430,13 @@ body{
 
 .hero-content .section-title h1 span{
     font-size: 2rem;
-    background: #F2F2F5 !important;
-    padding: .5rem 2rem;
-    border-radius: 3rem;
-    opacity: .5;
+    background: none !important;
+    /* padding: .5rem 2rem; */
+    /* border-radius: 3rem; */
+    /* opacity: .75; */
     margin: 0px;
-	background-clip: none !important;
-	-webkit-text-fill-color: var(--primary-color) !important;
+	/* background-clip: none !important; */
+	-webkit-text-fill-color: #ffffff !important;
 }
 
 .section-title p{
