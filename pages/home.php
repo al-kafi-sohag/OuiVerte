@@ -9,7 +9,7 @@
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">Welcome to <span class="logo-text"><?php echo APP_NAME; ?></span></h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Sovereign Cloud <span>Powered by Renewable Energy</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Sovereign European data centers: Sustainable. Efficient. Resilient.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Sovereign European Data Centers: Sustainable. Efficient. Resilient.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -136,7 +136,7 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">about us</h3>
+                            <h3 class="wow fadeInUp">ABOUT US</h3>
                             <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-delay="0.2s" data-cursor="-opaque">Pioneering <span>Sustainable Cloud Infrastructure</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s"> <span class="logo-text"><?php echo APP_NAME ?></span> is transforming data centers with our innovative approach to sovereign cloud services, powered by 100% renewable energy and designed for maximum resilience and efficiency.</p>
                         </div>
@@ -155,7 +155,7 @@
                             <!-- About Us Body Content Start -->
                             <div class="about-us-body-content">
                                 <h3>Sustainable by Design</h3>
-                                <p style="line-height: 1rem; text-align: justify; font-size: 12px;">Our Fractional Data Center fabric captures renewable heat for district heating systems, creating a circular energy economy while ensuring data sovereignty and low latency.</p>
+                                <p style="line-height: 1rem; text-align: justify; font-size: 12px;">Our fractional data center fabric captures renewable heat for district heating systems, creating a circular energy economy while ensuring data sovereignty and low latency.</p>
                             </div>
                             <!-- About Us Body Content End -->
                         </div>
@@ -232,8 +232,8 @@
                     <div class="our-feature-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">our expertise</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Advanced network solutions <span>with unbiased expertise</span></h2>
+                            <h3 class="wow fadeInUp">OUR EXPERTISE</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Advanced Network Solutions <span>with Unbiased Expertise</span></h2>
                         </div>
                         <!-- Section Title End -->
 
