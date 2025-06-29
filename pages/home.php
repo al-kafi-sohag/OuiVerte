@@ -9,7 +9,7 @@
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">Welcome to <span class="logo-text"><?php echo APP_NAME; ?></span></h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Sovereign Cloud <span>Powered by Renewable Energy</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Sovereign European Data Centers: Sustainable. Efficient. Resilient.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">The best sovereign European data centers should be <br> sustainable, efficient, and resilient. OuiVerte!’s are. <br> Let us prove it to you…</p>
                         </div>
                         <!-- Section Title End -->
 
