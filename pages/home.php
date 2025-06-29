@@ -9,27 +9,27 @@
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">Welcome to <span class="logo-text"><?php echo APP_NAME; ?></span></h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Sovereign Cloud <span>Powered by Renewable Energy</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">The best sovereign European data centers should be <br> sustainable, efficient, and resilient. OuiVerte!’s are. <br> Let us prove it to you…</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">The best sovereign European data centers should be sustainable, efficient, and resilient. <span class="logo-text"><?php echo APP_NAME; ?></span>’s are. Let us prove it to you…</p>
                         </div>
                         <!-- Section Title End -->
 
                         <!-- Hero Content Body Start -->
-                        <!-- <div class="hero-content-body wow fadeInUp" data-wow-delay="0.6s"> -->
+                        <div class="hero-content-body wow fadeInUp" data-wow-delay="0.6s">
                             <!-- Hero Button Start -->
-                            <!-- <div class="hero-btn">
-                                <a href="<?php echo BASE_URL; ?>/contact" class="btn-default btn-highlighted">learn more</a>
-                            </div> -->
+                            <div class="hero-btn">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHZ2B50AAL_VXJCbev9U_G6oGtqGFUjpcy-vJglmDVR039AQ/viewform?usp=header" class="btn-default btn-highlighted">Register here to find out more about <span class="logo-text"><?php echo APP_NAME; ?></span></a>
+                            </div>
                             <!-- Hero Button End -->
 
                             <!-- Video Play Button Start -->
                             <!-- <div class="video-play-button">
-                                <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
+                                <a href="https://www.youtube.com/watch?v=ey_lEU07N0s" class="popup-video" data-cursor-text="Play">
                                     <i class="fa-solid fa-play"></i>
                                 </a>
                                 <h3>Play video</h3>
                             </div> -->
                             <!-- Video Play Button End -->
-                        <!-- </div> -->
+                        </div>
                         <!-- Hero Content Body End -->      
                         
                         <!-- Hero Content Footer Start -->

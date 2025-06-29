@@ -223,7 +223,6 @@ body{
     font-size: 18px;
     font-weight: 600;
 	line-height: 1em;
-    text-transform: capitalize;
     border: none;
     padding: 17px 60px 17px 30px;
     transition: all 0.4s ease-in-out;
@@ -1027,7 +1026,7 @@ header.main-header .header-sticky.active{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .hero-list ul{
@@ -5386,6 +5385,10 @@ header.main-header .header-sticky.active{
 
 	.hero-content-footer{
 		margin-top: 40px;
+	}
+	
+	.hero-btn a{
+		line-height: 1.2rem;
 	}
 
 	.hero-list ul li{
