@@ -7,7 +7,7 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">welcome to <span class="logo-text"><?php echo APP_NAME; ?></span></h3>
+                            <h3 class="wow fadeInUp">Welcome to <span class="logo-text"><?php echo APP_NAME; ?></span></h3>
                             <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Sovereign Cloud <span>Powered by Renewable Energy</span></h1>
                             <p class="wow fadeInUp" data-wow-delay="0.4s">Sovereign European data centers: Sustainable. Efficient. Resilient.</p>
                         </div>
