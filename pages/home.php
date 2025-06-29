@@ -40,7 +40,7 @@
                                     <li>Sovereign Cloud Solutions</li>
                                     <li>100% Renewable Energy</li>
                                     <li>Urban Data Centers</li>
-                                    <li>100% Water Free</li>
+                                    <li>Ridiculously Low Latency</li>
                                 </ul>
                             </div>
                             <!-- Hero List End -->
