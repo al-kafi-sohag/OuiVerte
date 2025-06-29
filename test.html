@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OuiVerte - Sovereign Cloud</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-emerald: #10b981;
+            --primary-emerald-dark: #059669;
+            --primary-emerald-light: #34d399;
+            --primary-teal: #14b8a6;
+            --bg-slate-900: #0f172a;
+            --bg-blue-900: #1e3a8a;
+            --bg-slate-800: #1e293b;
+            --text-white: #ffffff;
+            --text-gray-300: #d1d5db;
+            --text-gray-400: #9ca3af;
+            --border-white-10: rgba(255, 255, 255, 0.1);
+            --bg-white-5: rgba(255, 255, 255, 0.05);
+            --bg-emerald-10: rgba(16, 185, 129, 0.1);
+            --bg-emerald-20: rgba(16, 185, 129, 0.2);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--bg-slate-900) 0%, var(--bg-blue-900) 50%, var(--bg-slate-800) 100%);
+        }
+
+        .dot-pattern {
+            background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary-emerald-light) 0%, var(--primary-teal) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .glass-card {
+            background: var(--bg-white-5);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-white-10);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: var(--primary-emerald);
+            color: var(--text-white);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-emerald-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid #4b5563;
+            color: var(--text-gray-300);
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline:hover {
+            background: #1f2937;
+            transform: translateY(-1px);
+        }
+
+        .feature-icon {
+            background: var(--bg-emerald-20);
+            color: var(--primary-emerald-light);
+        }
+
+        .nav-link {
+            color: var(--text-gray-300);
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--text-white);
+        }
+
+        .stats-number {
+            color: var(--primary-emerald-light);
+        }
+
+        .floating-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        /* Mobile menu styles */
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+
+        /* Scroll animations */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in-up.animate {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .fade-in-left {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in-left.animate {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .fade-in-right {
+            opacity: 0;
+            transform: translateX(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in-right.animate {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen relative overflow-x-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 dot-pattern opacity-20"></div>
+
+    <!-- Navigation -->
+    <nav class="relative z-50 flex items-center justify-between p-6 lg:px-8">
+        <div class="flex items-center space-x-2 fade-in-left">
+            <div class="w-8 h-8 rounded-lg flex items-center justify-center feature-icon">
+                <i data-lucide="shield" class="w-5 h-5"></i>
+            </div>
+            <span class="font-bold text-xl" style="color: var(--text-white)">OuiVerte</span>
+        </div>
+        
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-8 fade-in-right">
+            <a href="#solutions" class="nav-link">Solutions</a>
+            <a href="#sustainability" class="nav-link">Sustainability</a>
+            <a href="#about" class="nav-link">About</a>
+            <button class="btn-outline px-6 py-2 rounded-lg border" style="border-color: var(--primary-emerald); color: var(--primary-emerald-light);">
+                Contact Us
+            </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="md:hidden mobile-menu-btn" style="color: var(--text-white)">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu fixed top-0 right-0 h-full w-64 z-40 p-6 gradient-bg border-l" style="border-color: var(--border-white-10)">
+        <div class="flex justify-end mb-8">
+            <button class="mobile-menu-close" style="color: var(--text-white)">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <div class="space-y-6">
+            <a href="#solutions" class="block nav-link text-lg">Solutions</a>
+            <a href="#sustainability" class="block nav-link text-lg">Sustainability</a>
+            <a href="#about" class="block nav-link text-lg">About</a>
+            <button class="btn-outline w-full px-6 py-3 rounded-lg border mt-6" style="border-color: var(--primary-emerald); color: var(--primary-emerald-light);">
+                Contact Us
+            </button>
+        </div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-20 pb-32">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Column - Content -->
+            <div class="space-y-8">
+                <div class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium fade-in-up floating-animation" 
+                     style="background: var(--bg-emerald-10); border: 1px solid rgba(16, 185, 129, 0.2); color: var(--primary-emerald-light);">
+                    <i data-lucide="zap" class="w-4 h-4 mr-2"></i>
+                    Welcome to the Future of Cloud
+                </div>
+                
+                <div class="space-y-6 fade-in-up" data-delay="200">
+                    <h1 class="text-5xl lg:text-7xl font-bold leading-tight" style="color: var(--text-white)">
+                        Sovereign<br>
+                        <span class="text-gradient">Cloud</span>
+                    </h1>
+                    
+                    <div class="space-y-2">
+                        <p class="text-2xl lg:text-3xl font-semibold" style="color: var(--primary-emerald-light)">Powered by</p>
+                        <p class="text-2xl lg:text-3xl font-semibold" style="color: var(--primary-emerald-light)">Renewable Energy</p>
+                    </div>
+                    
+                    <p class="text-xl max-w-lg leading-relaxed" style="color: var(--text-gray-300)">
+                        Sovereign European data centers: Sustainable. Efficient. Resilient. 
+                        Building the future of cloud infrastructure with zero compromise.
+                    </p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 fade-in-up" data-delay="400">
+                    <button class="btn-primary px-8 py-3 text-lg rounded-lg font-semibold">
+                        Get Started
+                    </button>
+                    <button class="btn-outline px-8 py-3 text-lg rounded-lg font-semibold">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Column - Features -->
+            <div class="space-y-6 fade-in-right">
+                <div class="grid gap-6">
+                    <!-- Feature 1 -->
+                    <div class="glass-card flex items-start space-x-4 p-6 rounded-xl fade-in-up" data-delay="100">
+                        <div class="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 feature-icon">
+                            <i data-lucide="shield" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg mb-2" style="color: var(--text-white)">Sovereign Cloud Solutions</h3>
+                            <p style="color: var(--text-gray-400)">
+                                Complete data sovereignty with European-based infrastructure and governance.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="glass-card flex items-start space-x-4 p-6 rounded-xl fade-in-up" data-delay="200">
+                        <div class="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 feature-icon">
+                            <i data-lucide="zap" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg mb-2" style="color: var(--text-white)">100% Renewable Energy</h3>
+                            <p style="color: var(--text-gray-400)">
+                                Powered entirely by clean, renewable energy sources for sustainable operations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="glass-card flex items-start space-x-4 p-6 rounded-xl fade-in-up" data-delay="300">
+                        <div class="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 feature-icon">
+                            <i data-lucide="building-2" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg mb-2" style="color: var(--text-white)">Urban Data Centers</h3>
+                            <p style="color: var(--text-gray-400)">
+                                Strategically located urban facilities for optimal performance and connectivity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="glass-card flex items-start space-x-4 p-6 rounded-xl fade-in-up" data-delay="400">
+                        <div class="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 feature-icon">
+                            <i data-lucide="droplets" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg mb-2" style="color: var(--text-white)">100% Water Free</h3>
+                            <p style="color: var(--text-gray-400)">
+                                Advanced cooling systems that eliminate water usage for environmental protection.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Stats -->
+    <div class="relative z-10 glass-card border-t" style="border-color: var(--border-white-10)">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 py-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="fade-in-up" data-delay="100">
+                    <div class="text-3xl font-bold mb-2 stats-number counter" data-target="99.9">0</div>
+                    <div style="color: var(--text-gray-400)" class="text-sm">% Uptime SLA</div>
+                </div>
+                <div class="fade-in-up" data-delay="200">
+                    <div class="text-3xl font-bold mb-2 stats-number counter" data-target="50">0</div>
+                    <div style="color: var(--text-gray-400)" class="text-sm">+ Data Centers</div>
+                </div>
+                <div class="fade-in-up" data-delay="300">
+                    <div class="text-3xl font-bold mb-2 stats-number counter" data-target="100">0</div>
+                    <div style="color: var(--text-gray-400)" class="text-sm">% Green Energy</div>
+                </div>
+                <div class="fade-in-up" data-delay="400">
+                    <div class="text-3xl font-bold mb-2 stats-number">24/7</div>
+                    <div style="color: var(--text-gray-400)" class="text-sm">Support</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Initialize Lucide icons
+            lucide.createIcons();
+
+            // Mobile menu functionality
+            $('.mobile-menu-btn').click(function() {
+                $('.mobile-menu').addClass('active');
+            });
+
+            $('.mobile-menu-close').click(function() {
+                $('.mobile-menu').removeClass('active');
+            });
+
+            // Close mobile menu when clicking outside
+            $(document).click(function(e) {
+                if (!$(e.target).closest('.mobile-menu, .mobile-menu-btn').length) {
+                    $('.mobile-menu').removeClass('active');
+                }
+            });
+
+            // Smooth scrolling for navigation links
+            $('a[href^="#"]').click(function(e) {
+                e.preventDefault();
+                var target = $(this.getAttribute('href'));
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - 80
+                    }, 800);
+                }
+                $('.mobile-menu').removeClass('active');
+            });
+
+            // Scroll animations
+            function animateOnScroll() {
+                $('.fade-in-up, .fade-in-left, .fade-in-right').each(function() {
+                    var elementTop = $(this).offset().top;
+                    var elementBottom = elementTop + $(this).outerHeight();
+                    var viewportTop = $(window).scrollTop();
+                    var viewportBottom = viewportTop + $(window).height();
+                    
+                    if (elementBottom > viewportTop && elementTop < viewportBottom) {
+                        var delay = $(this).data('delay') || 0;
+                        var element = $(this);
+                        
+                        setTimeout(function() {
+                            element.addClass('animate');
+                        }, delay);
+                    }
+                });
+            }
+
+            // Counter animation
+            function animateCounters() {
+                $('.counter').each(function() {
+                    var $this = $(this);
+                    var target = parseFloat($this.data('target'));
+                    var current = 0;
+                    var increment = target / 100;
+                    var isDecimal = target % 1 !== 0;
+                    
+                    if (!$this.hasClass('counted')) {
+                        $this.addClass('counted');
+                        
+                        var timer = setInterval(function() {
+                            current += increment;
+                            if (current >= target) {
+                                current = target;
+                                clearInterval(timer);
+                            }
+                            
+                            if (isDecimal) {
+                                $this.text(current.toFixed(1));
+                            } else {
+                                $this.text(Math.floor(current));
+                            }
+                        }, 20);
+                    }
+                });
+            }
+
+            // Check if stats section is in view for counter animation
+            function checkStatsInView() {
+                var statsSection = $('.counter').first().closest('div');
+                if (statsSection.length) {
+                    var elementTop = statsSection.offset().top;
+                    var elementBottom = elementTop + statsSection.outerHeight();
+                    var viewportTop = $(window).scrollTop();
+                    var viewportBottom = viewportTop + $(window).height();
+                    
+                    if (elementBottom > viewportTop && elementTop < viewportBottom) {
+                        animateCounters();
+                    }
+                }
+            }
+
+            // Scroll event handler
+            $(window).scroll(function() {
+                animateOnScroll();
+                checkStatsInView();
+            });
+
+            // Initial animation check
+            animateOnScroll();
+            checkStatsInView();
+
+            // Button hover effects
+            $('.btn-primary, .btn-outline').hover(
+                function() {
+                    $(this).addClass('pulse-animation');
+                },
+                function() {
+                    $(this).removeClass('pulse-animation');
+                }
+            );
+
+            // Parallax effect for background
+            $(window).scroll(function() {
+                var scrolled = $(window).scrollTop();
+                var parallax = $('.dot-pattern');
+                var speed = scrolled * 0.5;
+                parallax.css('transform', 'translateY(' + speed + 'px)');
+            });
+
+            // Add loading animation
+            $('body').addClass('loaded');
+        });
+    </script>
+</body>
+</html>
