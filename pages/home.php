@@ -283,3 +283,15 @@
         </div>
     </div>
     <!-- Our Feature Section End -->
+
+    <div class="paris-section bg-secondary-color" bis_skin_checked="1">
+        <div class="container" bis_skin_checked="1">
+            <div class="row" bis_skin_checked="1">
+                <div class="col-lg-8 offset-lg-2" bis_skin_checked="1">
+                    <div class="cta-content text-center" bis_skin_checked="1">
+                        <h2 class="" style="">Coming to a Paris arrondissement near you in 2026</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

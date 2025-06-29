@@ -72,6 +72,10 @@ body{
 	color: var(--text-color);
 }
 
+.bg-secondary-color{
+	background-color: var(--secondary-color);
+}
+
 ::-webkit-scrollbar-track{
 	background-color: var(--secondary-color);
 	border-left: 1px solid var(--secondary-color);
@@ -1338,6 +1342,34 @@ header.main-header .header-sticky.active{
 
 .cta-section{
 	padding: 100px 0 70px;
+}
+
+.paris-section {
+	padding: 70px 70px;
+}
+
+.paris-section h2 {
+  color: var(--white-color);
+  background: linear-gradient(to right, 
+    var(--accent-color), 
+    var(--accent-secondary-color), 
+    var(--accent-color));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: slideGradient 3s linear infinite;
+  font-weight: 700;
+}
+
+@keyframes slideGradient {
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
 }
 
 .service-item{
