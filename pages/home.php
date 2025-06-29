@@ -17,7 +17,7 @@
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.6s">
                             <!-- Hero Button Start -->
                             <div class="hero-btn">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHZ2B50AAL_VXJCbev9U_G6oGtqGFUjpcy-vJglmDVR039AQ/viewform?usp=header" class="btn-default btn-highlighted">Register here to find out more about <span class="logo-text"><?php echo APP_NAME; ?></span></a>
+                                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdHZ2B50AAL_VXJCbev9U_G6oGtqGFUjpcy-vJglmDVR039AQ/viewform?usp=header" class="btn-default btn-highlighted">Register here to find out more about <span class="logo-text"><?php echo APP_NAME; ?></span></a>
                             </div>
                             <!-- Hero Button End -->
 
