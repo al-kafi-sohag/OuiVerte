@@ -1630,7 +1630,7 @@ header.main-header .header-sticky.active{
 
 .ferature-list-content h3{
 	font-size: 20px;
-	text-transform: capitalize;
+	text-transform: none;
 	margin-bottom: 10px;
 }
 

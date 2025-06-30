@@ -37,10 +37,10 @@
                             <!-- Hero List Start -->
                             <div class="hero-list wow fadeInUp" data-wow-delay="0.8s">
                                 <ul>
-                                    <li>Sovereign Cloud Solutions</li>
-                                    <li>100% Renewable Energy</li>
-                                    <li>Urban Data Centers</li>
-                                    <li>Ridiculously Low Latency</li>
+                                    <li>Sovereign cloud solutions</li>
+                                    <li>100% Renewable energy</li>
+                                    <li>Urban data centers</li>
+                                    <li>Ridiculously low latency</li>
                                 </ul>
                             </div>
                             <!-- Hero List End -->
@@ -137,7 +137,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">ABOUT US</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-delay="0.2s" data-cursor="-opaque">Pioneering <span>Sustainable Cloud Infrastructure</span></h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-delay="0.2s" data-cursor="-opaque">Pioneering <span>sustainable cloud infrastructure</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.4s"> <span class="logo-text"><?php echo APP_NAME ?></span> is transforming data centers with our innovative approach to sovereign cloud services, powered by 100% renewable energy and designed for maximum resilience and efficiency.</p>
                         </div>
                         <!-- Section Title End -->
@@ -154,7 +154,7 @@
                             
                             <!-- About Us Body Content Start -->
                             <div class="about-us-body-content">
-                                <h3>Sustainable by Design</h3>
+                                <h3>Sustainable by design</h3>
                                 <p style="line-height: 1rem; text-align: justify; font-size: 12px;">Our fractional data center fabric captures renewable heat for district heating systems, creating a circular energy economy while ensuring data sovereignty and low latency.</p>
                             </div>
                             <!-- About Us Body Content End -->
@@ -166,10 +166,10 @@
                             <!-- About Footer List Start -->
                             <div class="about-footer-list">
                                 <ul>
-                                    <li>Sovereign Cloud Solutions</li>
-                                    <li>Renewable Energy Integration</li>
-                                    <li>AI-Optimized Operations</li>
-                                    <li>100% Water Free</li>
+                                    <li>Sovereign cloud solutions</li>
+                                    <li>Renewable energy integration</li>
+                                    <li>AI-optimized operations</li>
+                                    <li>100% water free</li>
                                 </ul>
                             </div>
                             <!-- About Footer List End -->
@@ -233,7 +233,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">OUR EXPERTISE</h3>
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Advanced Network Solutions <span>with Unbiased Expertise</span></h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Advanced network solutions <span>with unbiased expertise</span></h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -245,7 +245,7 @@
                                     <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-1.svg" alt="100% Renewable Energy Icon">
                                 </div>
                                 <div class="ferature-list-content">
-                                    <h3>Ultra-Sustainable & Locally Powered</h3>
+                                    <h3>Ultra-sustainable & locally powered</h3>
                                     <p>Our neighborhood data centers run on 100% renewable energy and recycle our waste heat into local District Heating systems — zero water usage, zero carbon, no compromises.</p>
                                 </div>
                             </div>
@@ -257,7 +257,7 @@
                                     <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-2.svg" alt="European Sovereign Cloud Icon">
                                 </div>
                                 <div class="ferature-list-content">
-                                    <h3>European-Owned, Sovereign Cloud</h3>
+                                    <h3>European-owned, sovereign cloud</h3>
                                     <p>Host your data securely with a trusted, EU-based provider offering full data sovereignty, GDPR compliance, and no transatlantic exposure.</p>
                                 </div>
                             </div>
@@ -269,7 +269,7 @@
                                     <img src="<?php echo BASE_URL; ?>/assets/images/icon-ferature-3.svg" alt="">
                                 </div>
                                 <div class="ferature-list-content">
-                                    <h3>Tailored Hybrid Cloud Solutions</h3>
+                                    <h3>Tailored hybrid cloud solutions</h3>
                                     <p>From DIY IaaS to bespoke CaaS/PaaS platforms, we deliver transparent pricing, enterprise-grade SLAs, and expert consulting to meet your exact needs.</p>
                                 </div>
                             </div>
