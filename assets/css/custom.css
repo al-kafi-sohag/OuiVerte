@@ -1346,14 +1346,15 @@ header.main-header .header-sticky.active{
 
 .paris-section {
 	padding: 70px 70px;
+	background-color: #82dd54f7;
 }
 
 .paris-section h2 {
   color: var(--white-color);
   background: linear-gradient(to right, 
-    var(--accent-color), 
-    var(--accent-secondary-color), 
-    var(--accent-color));
+    #010535, 
+    #1A1A1A, 
+    #010535);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;

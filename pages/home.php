@@ -284,7 +284,7 @@
     </div>
     <!-- Our Feature Section End -->
 
-    <div class="paris-section bg-secondary-color" bis_skin_checked="1">
+    <div class="paris-section" bis_skin_checked="1">
         <div class="container" bis_skin_checked="1">
             <div class="row" bis_skin_checked="1">
                 <div class="col-lg-8 offset-lg-2" bis_skin_checked="1">
