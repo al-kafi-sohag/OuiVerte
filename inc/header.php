@@ -7,8 +7,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         <meta name="description" content="OuiVerte - European Sovereign Cloud Provider powered by 100% renewable energy. Sustainable, efficient, and resilient data centers with zero water usage and complete GDPR compliance.">
-        <meta name="keywords" content="sovereign cloud, renewable energy, sustainable data center, green hosting, GDPR compliant, European cloud provider, zero water usage, district heating, sustainable infrastructure, eco-friendly hosting">
+        <meta name="keywords" content="sovereign cloud, renewable energy, sustainable data center, green hosting, GDPR compliant, European cloud provider, zero water usage, district heating, sustainable infrastructure, eco-friendly hosting, <?php echo APP_NAME; ?>">
         
+        <?php if (STAGGING_MODE) { ?>
+            <meta name="robots" content="noindex, nofollow">
+        <?php } ?>
+
         <!-- Open Graph / Social Media Meta Tags -->
         <meta property="og:title" content="<?php echo APP_NAME; ?> - <?php echo APP_SLOGAN; ?>">
         <meta property="og:description" content="European Sovereign Cloud Provider powered by 100% renewable energy. Sustainable, efficient, and resilient data centers.">
