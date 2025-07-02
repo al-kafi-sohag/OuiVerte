@@ -27,7 +27,7 @@
         <meta name="twitter:image" content="<?php echo BASE_URL; ?>/assets/images/logo.png">
         
         <!-- Canonical URL -->
-        <link rel="canonical" href="<?php echo BASE_URL; ?><?php echo $_SERVER['REQUEST_URI']; ?>">
+        <link rel="canonical" href="<?php echo BASE_URL . strtok($_SERVER["REQUEST_URI"], '?') ?>">
         
         <!-- Page Title -->
         <title><?php echo APP_NAME; ?> - Sustainable Sovereign Cloud Infrastructure | <?php echo APP_SLOGAN; ?></title>
