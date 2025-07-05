@@ -19,7 +19,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd /public_html/staging.ouiverte.fr
+            cd domains/ouiverte.fr/public_html/staging.ouiverte.fr
             git fetch --all
             git reset --hard origin/main
             php artisan optimize:clear
