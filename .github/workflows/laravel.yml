@@ -1,0 +1,26 @@
+name: Deploy Application to Staging Server
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  sandbox-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.IP }}
+          port: ${{ secrets.PORT }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            cd /public_html/staging.ouiverte.fr
+            git fetch --all
+            git reset --hard origin/main
+            php artisan optimize:clear
+            php artisan migrate --force
