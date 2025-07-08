@@ -22,5 +22,6 @@ jobs:
             cd domains/ouiverte.fr/public_html/staging.ouiverte.fr
             git fetch --all
             git reset --hard origin/main
+            git pull
             php artisan optimize:clear
             php artisan migrate --force
