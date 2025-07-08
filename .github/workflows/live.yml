@@ -25,3 +25,4 @@ jobs:
             git pull
             php artisan optimize:clear
             php artisan migrate --force
+            composer2 install --no-dev --optimize-autoloader
