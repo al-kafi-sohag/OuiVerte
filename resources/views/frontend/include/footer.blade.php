@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-8 m-auto">
                     <div class="footer-copyright-text">
-                        <p>{{ __('Copyright') }} &copy; {{ date('Y') }} <span class="logo-text">{{ config('app.name') }}</span>, SaRL. {{ __('All rights reserved') }}.</p>
+                        <p>{{ __('Copyright') }} &copy; {{ date('Y') }} <span class="logo-text">{{ config('app.name') }}</span> {{ __('All rights reserved') }}.</p>
                     </div>
                 </div>
             </div>
