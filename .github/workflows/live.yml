@@ -1,4 +1,4 @@
-name: Deploy Application to Staging Server
+name: Deploy Application to live Server
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: ["live"]
 
 jobs:
-  sandbox-deploy:
+  live-deploy:
     runs-on: ubuntu-latest
 
     steps:
