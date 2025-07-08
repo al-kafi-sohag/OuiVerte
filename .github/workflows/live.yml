@@ -23,6 +23,6 @@ jobs:
             git fetch --all
             git reset --hard origin/live
             git pull
+            composer2 install --no-dev --optimize-autoloader
             php artisan optimize:clear
             php artisan migrate --force
-            composer2 install --no-dev --optimize-autoloader
