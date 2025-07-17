@@ -11,4 +11,12 @@ class HomePageController extends Controller
 
         return view('frontend.home.index');
     }
+
+    public function new()
+    {
+
+        return view('frontend.home.new');
+    }
+
+    
 }
