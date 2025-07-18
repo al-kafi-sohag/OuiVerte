@@ -12,10 +12,14 @@ class HomePageController extends Controller
         return view('frontend.home.index');
     }
 
-    public function new()
+    public function test1()
     {
+        return view('frontend.home.test1');
+    }
 
-        return view('frontend.home.new');
+    public function test2()
+    {
+        return view('frontend.home.test2');
     }
 
     
