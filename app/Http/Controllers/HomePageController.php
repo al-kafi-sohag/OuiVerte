@@ -22,5 +22,10 @@ class HomePageController extends Controller
         return view('frontend.home.test2');
     }
 
-    
+    public function test3()
+    {
+        return view('frontend.home.test3');
+    }
+
+
 }
