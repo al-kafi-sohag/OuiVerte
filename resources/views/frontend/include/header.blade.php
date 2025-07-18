@@ -14,7 +14,7 @@
 				<a class="navbar-brand logo" href="{{ config('app.url') }}">
 					<img class="img-fluid" src="{{ asset('assets/images/logo.png') }}" alt="{{ config('app.name') }} - {{ config('app.slogan') }}">
 				</a>
-				<div class="collapse navbar-collapse main-menu">
+				<div class="main-menu">
                     <div class="nav-menu-wrapper d-flex align-items-center justify-content-end">
                         <ul class="navbar-nav mr-auto" id="menu">
                             <li class="nav-item">

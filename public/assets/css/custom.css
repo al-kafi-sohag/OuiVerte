@@ -6754,6 +6754,12 @@ header.main-header .header-sticky.active{
 }
 
 @media only screen and (max-width: 767px){
+    .navbar .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 	.topbar-info-text{
 		display: none;
 	}
