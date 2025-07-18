@@ -7568,3 +7568,12 @@ header.main-header .header-sticky.active{
     color: var(--white-color);
     border-radius: 5px;
 }
+
+.nav-item .play-button:hover{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.mr-2{
+    margin-right: 10px;
+}
