@@ -44,7 +44,7 @@
 
 /************************************/
 /*** 	 01. Global Variables	  ***/
-/************************************/	
+/************************************/
 
 :root{
 	--primary-color				: #010535;
@@ -1351,9 +1351,9 @@ header.main-header .header-sticky.active{
 
 .paris-section h2 {
   color: var(--white-color);
-  background: linear-gradient(to right, 
-    #010535, 
-    #1A1A1A, 
+  background: linear-gradient(to right,
+    #010535,
+    #1A1A1A,
     #010535);
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -2059,7 +2059,7 @@ header.main-header .header-sticky.active{
 
 .pricing-header h2{
 	font-size: 46px;
-	color: var(--white-color);	
+	color: var(--white-color);
 	margin-bottom: 15px;
 }
 
@@ -2493,7 +2493,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-team{
-	background-image: url('../images/our-team-bg.png'), linear-gradient(180deg, var(--primary-color) 70%, transparent 30%); 
+	background-image: url('../images/our-team-bg.png'), linear-gradient(180deg, var(--primary-color) 70%, transparent 30%);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -2833,7 +2833,7 @@ header.main-header .header-sticky.active{
 	color: var(--primary-color);
 }
 
-.faq-accordion .accordion-item .accordion-button::after, 
+.faq-accordion .accordion-item .accordion-button::after,
 .faq-accordion .accordion-item .accordion-button.collapsed::after{
     content: '\f107';
     font-family: 'FontAwesome';
@@ -3341,7 +3341,7 @@ header.main-header .header-sticky.active{
 .what-we-do-img-1 img,
 .what-we-do-img-2 img{
 	width: 100%;
-	object-fit: cover;	
+	object-fit: cover;
 	border-radius: 30px;
 }
 
@@ -3572,7 +3572,7 @@ header.main-header .header-sticky.active{
 }
 
 .how-it-work-img-2 img{
-	aspect-ratio: 1 / 1.02;	
+	aspect-ratio: 1 / 1.02;
 }
 
 .our-benefits{
@@ -4180,7 +4180,7 @@ header.main-header .header-sticky.active{
     transition: all 0.3s ease-in-out;
 }
 
-.page-pagination ul li.active a, 
+.page-pagination ul li.active a,
 .page-pagination ul li a:hover{
     background: var(--primary-color);
     color: var(--white-color);
@@ -4199,7 +4199,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-image figure{
-	display: block;	
+	display: block;
 	border-radius: 30px;
 	overflow: hidden;
 }
@@ -4279,7 +4279,7 @@ header.main-header .header-sticky.active{
 .post-entry p strong{
 	color: var(--primary-color);
 	font-size: 20px;
-	font-weight: 600; 
+	font-weight: 600;
 }
 
 .post-entry ol{
@@ -5331,7 +5331,7 @@ header.main-header .header-sticky.active{
 	.main-menu ul li.highlighted-menu{
 		display: block;
 	}
-	
+
 	.slicknav_nav li,
 	.slicknav_nav ul{
         display: block;
@@ -5401,7 +5401,7 @@ header.main-header .header-sticky.active{
 	.hero.hero-slider-layout .hero-slide{
 		padding: 120px 0;
 	}
-	
+
 	.hero.hero-slider-layout .hero-pagination{
 		bottom: 40px;
 		padding-left: 15px;
@@ -5419,7 +5419,7 @@ header.main-header .header-sticky.active{
 	.hero-content-footer{
 		margin-top: 40px;
 	}
-	
+
 	.hero-btn a{
 		line-height: 1.2rem;
 	}
@@ -5439,7 +5439,7 @@ header.main-header .header-sticky.active{
 	.client-image img{
 		max-width: 50px;
 	}
-	
+
 	.client-image.client-counter h3{
 		font-size: 20px;
 	}
@@ -5754,7 +5754,7 @@ header.main-header .header-sticky.active{
 	.pricing-header h3{
 		margin-bottom: 10px;
 	}
-	
+
 	.pricing-header h2{
 		font-size: 36px;
 		margin-bottom: 10px;
@@ -6046,7 +6046,7 @@ header.main-header .header-sticky.active{
 	.page-header{
 		padding: 80px 0;
 	}
-	
+
 	.page-header-box h1{
 		font-size: 50px;
 	}
@@ -6219,7 +6219,7 @@ header.main-header .header-sticky.active{
 		height: auto;
 		border-radius: 20px;
 	}
-	
+
 	.benefit-img-1 img{
 		aspect-ratio: 1 / 0.98;
 	}
@@ -6419,16 +6419,16 @@ header.main-header .header-sticky.active{
 	.page-single-post{
 		padding: 50px 0;
 	}
-	
+
 	.post-image{
 		margin-bottom: 20px;
 	}
-	
+
 	.post-image figure,
 	.post-image img{
 		border-radius: 20px;
 	}
-	
+
 	.post-entry h1,
 	.post-entry h2,
 	.post-entry h3,
@@ -6437,20 +6437,20 @@ header.main-header .header-sticky.active{
 	.post-entry h6{
 		margin: 0 0 0.417em;
 	}
-	
+
 	.post-entry h2{
 		font-size: 36px;
 	}
-	
+
 	.post-entry p{
 		margin-bottom: 15px;
 	}
-	
+
 	.post-entry ul li{
 		font-size: 16px;
 		margin-bottom: 10px;
 	}
-	
+
 	.post-entry blockquote{
 		background-position: 25px 25px;
 		background-size: 50px;
@@ -6458,19 +6458,19 @@ header.main-header .header-sticky.active{
 		border-radius: 20px;
 		margin-bottom: 20px;
 	}
-	
+
 	.post-entry blockquote p{
 		font-size: 18px;
 	}
-	
+
 	.post-tags{
 		margin-bottom: 20px;
 	}
-	
+
 	.post-tags .tag-links a{
 		padding: 12px 15px;
 	}
-	
+
 	.post-social-sharing ul{
 		text-align: left;
 	}
@@ -6739,7 +6739,7 @@ header.main-header .header-sticky.active{
 	.error-page{
 		padding: 50px 0;
 	}
-	
+
 	.error-page-image{
 		margin-bottom: 20px;
 	}
@@ -6782,7 +6782,7 @@ header.main-header .header-sticky.active{
 	.about-us-image{
 		gap: 20px;
     }
-	
+
 	.about-image-box{
 		width: calc(50% - 10px);
 	}
@@ -7129,7 +7129,7 @@ header.main-header .header-sticky.active{
 			right: -15px;
 		}
 	}
-	
+
 	.cta-contact-item{
 		border-bottom: 1px solid var(--dark-divider-color);
 		margin: 0 0 15px 0;
@@ -7281,7 +7281,7 @@ header.main-header .header-sticky.active{
 	.work-step-no h3{
         font-size: 20px;
     }
-	
+
 	.work-step-content{
 		width: calc(100% - 55px);
 	}
@@ -7335,7 +7335,7 @@ header.main-header .header-sticky.active{
 
 	.benefit-body-item{
 		width: 100%;
-	}	
+	}
 
 	.benefit-body-item-content h3{
 		font-size: 18px;
@@ -7416,12 +7416,12 @@ header.main-header .header-sticky.active{
 	.post-image img{
 		aspect-ratio: 1 / 0.7;
 	}
-	
+
 	.post-entry blockquote{
 		background-position: 15px 12px;
 		padding: 60px 15px 15px 15px;
 	}
-	
+
 	.post-entry h2{
 		font-size: 26px;
 	}
@@ -7429,7 +7429,7 @@ header.main-header .header-sticky.active{
 	.tag-links{
 		font-size: 18px;
 	}
-	
+
 	.project-detail-list{
 		padding: 20px;
 	}
@@ -7450,7 +7450,7 @@ header.main-header .header-sticky.active{
 	.project-entry h2{
         font-size: 26px;
     }
-	
+
 	.project-video-content,
 	.project-video-box{
 		width: 100%;
@@ -7459,7 +7459,7 @@ header.main-header .header-sticky.active{
 	.project-scope-box ul li{
 		width: 100%;
 	}
-	
+
 	.project-entry-images{
 		gap: 20px;
 	}
@@ -7488,7 +7488,7 @@ header.main-header .header-sticky.active{
 	.team-member-info .section-title{
 		margin-bottom: 20px;
 	}
-	
+
 	.team-member-detail{
         margin-bottom: 20px;
         padding-bottom: 20px;
@@ -7544,7 +7544,7 @@ header.main-header .header-sticky.active{
 	.contact-info-item:nth-child(3n + 3)::before{
 		display: block;
 	}
-	
+
 	.contact-info-item:last-child::before{
 		display: none;
 	}
@@ -7556,9 +7556,15 @@ header.main-header .header-sticky.active{
 	.contact-info-content h3{
 		font-size: 18px;
 	}
-	
+
 	.google-map-iframe,
 	.google-map-iframe iframe{
 		height: 350px;
 	}
+}
+
+.nav-item .play-button{
+    background-color: var(--accent-secondary-color);
+    color: var(--white-color);
+    border-radius: 5px;
 }

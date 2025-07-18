@@ -15,8 +15,15 @@
 					<img class="img-fluid" src="{{ asset('assets/images/logo.png') }}" alt="{{ config('app.name') }} - {{ config('app.slogan') }}">
 				</a>
 				<div class="collapse navbar-collapse main-menu">
-                    <div class="nav-menu-wrapper">
+                    <div class="nav-menu-wrapper d-flex align-items-center justify-content-end">
                         <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item">
+                                <button class="nav-link play-button" type="button">
+                                    <a href="https://www.youtube.com/watch?v=ey_lEU07N0s" class="popup-video" data-cursor-text="Play">
+                                        <i class="fa-solid fa-play mr-2"></i> About OuiVerte!
+                                    </a>
+                                </button>
+                            </li>
                         </ul>
                     </div>
 				</div>
