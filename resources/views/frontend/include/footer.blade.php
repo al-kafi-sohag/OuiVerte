@@ -1,37 +1,15 @@
-<footer class="main-footer">
-    <div class="container" style="display:none;">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="footer-links footer-newsletter-form">
-                    <h3>{{ config('app.name') }}</h3>
-                    <p>{{ config('app.slogan') }}</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-            </div>
-
-            <div class="col-lg-3">
-                <div class="footer-links">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li>{{ config('app.name') }}, LLC.</li>
-                    </ul>
-                </div>
+    <!-- Footer -->
+    <footer class="bg-dark-green text-white py-10 px-4 rounded-t-lg">
+        <div class="container mx-auto text-gray-200">
+            <p class="mb-2 flex justify-between items-center">
+                <span class="font-bold italic text-white text-2xl">OuiVerte!</span>
+                <span class="text-right">Data Centers: « <span class="font-bold italic text-xl text-white">Done Differently.</span> »</span>
+            </p>
+            <p class="text-center">&copy; 2025 OuiVerte! All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-white transition duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition duration-300">Terms of Service</a>
+                <a href="#" class="hover:text-white transition duration-300">Contact Us</a>
             </div>
         </div>
-    </div>
-
-    <!-- Footer Copyright Start -->
-    <div class="footer-copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 m-auto">
-                    <div class="footer-copyright-text">
-                        <p>{{ __('Copyright') }} &copy; {{ date('Y') }} <span class="logo-text">{{ config('app.name') }}</span> {{ __('All rights reserved') }}.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Copyright End -->
-</footer>
+    </footer>

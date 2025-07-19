@@ -38,32 +38,10 @@
         <!-- Favicon Icon -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}">
 
-        <!-- Google Fonts Css-->
-        <link rel="preconnect" href="https://fonts.googleapis.com/">
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"
-            rel="stylesheet">
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-        <!-- Bootstrap Css -->
-        <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
-        <!-- SlickNav Css -->
-        <link href="{{ asset('assets/css/slicknav.min.css') }}" rel="stylesheet">
-        <!-- Swiper Css -->
-        <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
-        <!-- Font Awesome Icon Css-->
-        <link href="{{ asset('assets/css/all.min.css') }}" rel="stylesheet" media="screen">
-        <!-- Animated Css -->
-        <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
-        <!-- Magnific Popup Core Css File -->
-        <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
-        <!-- Mouse Cursor Css File -->
-        <link rel="stylesheet" href="{{ asset('assets/css/mousecursor.css') }}">
-        <!-- Main Custom Css -->
-        <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet" media="screen">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
