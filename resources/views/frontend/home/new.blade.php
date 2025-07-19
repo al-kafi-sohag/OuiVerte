@@ -10,7 +10,7 @@
             <p class="text-lg sm:text-xl mb-10 opacity-90">
                 Empowering Europe's digital future with eco-first, secure, and bespoke cloud infrastructure.
             </p>
-            <a href="#"
+            <a href="https://www.youtube.com/watch?v=ey_lEU07N0s" target="_blank"
                 class="inline-block bg-white text-emerald-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
                 Discover Our Solutions
             </a>
