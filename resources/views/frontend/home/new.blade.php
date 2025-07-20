@@ -11,8 +11,13 @@
                 Empowering Europe's digital future with eco-first, secure, and bespoke cloud infrastructure.
             </p>
             <a href="https://www.youtube.com/watch?v=ey_lEU07N0s" target="_blank"
-                class="inline-block bg-white text-emerald-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-                Discover Our Solutions
+                class="inline-block bg-white text-emerald-700 hover:bg-gray-100 font-bold py-2 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                <span class="flex items-center">
+                    <svg class="w-10 h-10 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path>
+                    </svg>
+                    Discover Our Solutions
+                </span>
             </a>
         </div>
     </section>
@@ -99,7 +104,7 @@
                         Discover how our Fractional Data Centers are revolutionizing urban energy infrastructure and digital
                         sovereignty.
                     </p>
-                    <a href="https://staging.ouiverte.fr/the-future-is-fractional" target="_blank"
+                    <a href="https://staging.ouiverte.fr/the-future-is-fractional"
                         class="text-emerald-600 hover:text-emerald-800 font-medium flex items-center justify-center">
                         View Infographic
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -117,7 +122,7 @@
                     <p class="text-gray-600 mb-4">
                         Explore the critical importance of data sovereignty for European businesses and how we deliver it.
                     </p>
-                    <a href="https://staging.ouiverte.fr/the-european-sovereign-cloud-opportunity" target="_blank"
+                    <a href="https://staging.ouiverte.fr/the-european-sovereign-cloud-opportunity"
                         class="text-teal-600 hover:text-teal-800 font-medium flex items-center justify-center">
                         View Infographic
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -135,7 +140,7 @@
                     <p class="text-gray-600 mb-4">
                         Understand our vision for a resilient, decarbonized, and economically productive energy future.
                     </p>
-                    <a href="https://staging.ouiverte.fr/future-proofing-the-european-grid" target="_blank"
+                    <a href="https://staging.ouiverte.fr/future-proofing-the-european-grid"
                         class="text-green-700 hover:text-green-800 font-medium flex items-center justify-center">
                         View Infographic
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
