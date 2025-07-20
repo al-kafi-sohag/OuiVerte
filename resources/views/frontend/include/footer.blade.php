@@ -7,9 +7,11 @@
             </p>
             <p class="text-center">&copy; {{ date('Y') }} OuiVerte! All rights reserved.</p>
             <div class="flex justify-center space-x-6 mt-4">
+                {{--
                 <a href="#" class="hover:text-white transition duration-300 none">Privacy Policy</a>
                 <a href="#" class="hover:text-white transition duration-300 none">Terms of Service</a>
                 <a href="#" class="hover:text-white transition duration-300 none">Contact Us</a>
+                --}}
             </div>
         </div>
     </footer>
