@@ -104,7 +104,7 @@
                         Discover how our Fractional Data Centers are revolutionizing urban energy infrastructure and digital
                         sovereignty.
                     </p>
-                    <a href="https://staging.ouiverte.fr/the-future-is-fractional"
+                    <a href="{{  route('infographics.1') }}"
                         class="text-emerald-600 hover:text-emerald-800 font-medium flex items-center justify-center">
                         View Infographic
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -122,7 +122,7 @@
                     <p class="text-gray-600 mb-4">
                         Explore the critical importance of data sovereignty for European businesses and how we deliver it.
                     </p>
-                    <a href="https://staging.ouiverte.fr/the-european-sovereign-cloud-opportunity"
+                    <a href="{{  route('infographics.2') }}"
                         class="text-teal-600 hover:text-teal-800 font-medium flex items-center justify-center">
                         View Infographic
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -140,7 +140,7 @@
                     <p class="text-gray-600 mb-4">
                         Understand our vision for a resilient, decarbonized, and economically productive energy future.
                     </p>
-                    <a href="https://staging.ouiverte.fr/future-proofing-the-european-grid"
+                    <a href="{{  route('infographics.3') }}"
                         class="text-green-700 hover:text-green-800 font-medium flex items-center justify-center">
                         View Infographic
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
