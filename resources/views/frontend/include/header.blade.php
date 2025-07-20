@@ -7,10 +7,10 @@
         </a>
         <nav class="hidden md:flex space-x-6">
             <a href="{{ route('home') }}" class="text-gray-200 hover:text-white font-medium transition duration-300">Home</a>
-            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300 none">Solutions</a>
-            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300 none">About Us</a>
-            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300 none">Blog</a>
-            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300 none">Contact</a>
+            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300">Solutions</a>
+            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300">About Us</a>
+            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300">Blog</a>
+            <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300">Contact</a>
         </nav>
         <button class="md:hidden p-2 rounded-md text-gray-200 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-white">
             <!-- Hamburger Icon -->
