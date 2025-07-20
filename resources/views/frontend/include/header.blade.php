@@ -6,7 +6,7 @@
             <span class="text-2xl font-bold text-white">OuiVerte!</span>
         </a>
         <nav class="hidden md:flex space-x-6">
-            <a href="{{ route('home') }}" class="text-gray-200 hover:text-white font-medium transition duration-300">Home</a>
+            <a href="{{ route('home') }}" class="text-gray-200 hover:text-white font-medium transition duration-300 none">Home</a>
             <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300 none">Solutions</a>
             <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300 none">About Us</a>
             <a href="#" class="text-gray-200 hover:text-white font-medium transition duration-300 none">Blog</a>
