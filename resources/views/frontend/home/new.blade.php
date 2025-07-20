@@ -164,10 +164,6 @@
                 Our mission is to empower businesses with secure, high-performance, and eco-friendly cloud solutions that
                 drive innovation and growth.
             </p>
-            <a href="#"
-                class="inline-block bg-emerald-600 text-white hover:bg-emerald-700 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
-                Learn More About Us
-            </a>
         </div>
     </section>
 
