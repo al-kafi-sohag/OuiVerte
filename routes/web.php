@@ -15,7 +15,7 @@ Route::get('/infographics/future-proofing-the-european-grid', [HomePageControlle
 
 
 //Only for staging 
-if(config('app.env' != 'production'){
+if(config('app.env') != 'production'){
    Route::get('/infographics/germany-grid-infographic', [HomePageController::class, 'info4'])->name('infographics.4');
    Route::get('/infographics/analysis-of-ouiVertes-business-plan', [HomePageController::class, 'info5'])->name('infographics.5');
 }
