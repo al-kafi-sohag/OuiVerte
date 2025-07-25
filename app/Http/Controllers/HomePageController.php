@@ -31,6 +31,11 @@ class HomePageController extends Controller
     {
         return view('frontend.home.info4');
     }
+    
+    public function info5()
+    {
+        return view('frontend.home.info5');
+    }
 
 
 }
